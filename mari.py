@@ -11,7 +11,7 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Import texts to JSON datastore
+# Import Texts to JSON Datastore
 filename = "texts.json"
 if filename:
 	with open(filename, 'r') as f:
@@ -119,7 +119,7 @@ print("Number of mislabeled points out of a total %d points : %d"
 # Plot PCA Decomposed Vectors
 plt.scatter(pcaM[:,1], pcaM[:,2], c = "blue")
 plt.scatter(pcaD[:,1], pcaD[:,2], c = "green")
-plt.scatter(pcaB[:,1], pcaB[:,2], c = "red")
+#plt.scatter(pcaB[:,1], pcaB[:,2], c = "red")
 #plt.scatter(pcaB[:,0], pcaB[:,1], c = "red")
 #plt.scatter(pcaM[:,0], pcaM[:,1], c = "red")
 #plt.scatter(pcaD[:,0], pcaD[:,1], c = "red")
